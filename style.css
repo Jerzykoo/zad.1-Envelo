@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root{
+    --bg-color: red;
+}
+
+body{
+    font-family: 'Roboto Condensed', 'arial',sans-serif;
+    background-color: var(--bg-color);
+}
+
+div{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+.hero{
+    border: none;
+    display: flex;
+}
+.hero button{
+    padding: 0 10px;
+}
+.hero p{
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+ button.powerUp{
+     margin-right: 10px;
+ }
